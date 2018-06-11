@@ -1,30 +1,3 @@
-
-Skip to content
-
-    Pull requests
-    Issues
-    Marketplace
-    Explore
-
-    @Shamsuddeen
-
-0
-0
-
-    0
-
-Shamsuddeen/oes
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Insights
-Settings
-oes/header.php
-f98e032 a minute ago
-@Shamsuddeen Shamsuddeen Add files via upload
-152 lines (146 sloc) 5.83 KB
 <?php
 	session_start();
 if(!isset($_SESSION['username']) & empty($_SESSION['username'])){
